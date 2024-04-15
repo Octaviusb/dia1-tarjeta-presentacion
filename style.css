@@ -1,0 +1,91 @@
+/* Start Global Rules */
+* {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+html{
+  margin: 0;
+}
+:root {
+  --White: hsl(0, 10%, 15%);
+  --Light-gray:#121a21;
+  --Grayish-blue:hsl(220, 15%, 55%);
+  --Dark-blue: hsl(216, 20%, 72%);
+
+}
+html {
+  scroll-behavior: smooth;
+}
+h2 {
+  display: block;
+  font-size: 1.5em;
+  margin-block-start: 0.83em;
+  margin-block-end: 0.83em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+  font-weight: bold;
+}
+a {
+  text-decoration: none;
+}
+ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+/* end Global Rules */
+body {
+  font-family: 'Outfit', sans-serif;
+  background-color: var(--Light-gray);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+main{
+  background-color: var(--White);
+  width: fit-content;
+  padding: 20px  ;
+  border-radius: 15px;
+  max-width: 340px;
+  text-align: center;
+  box-shadow: 5px 10px hsl(218deg 44% 22% / 3%);}
+main img{
+  border-radius: 15px;
+  width: 150px;
+}
+main .text{
+  padding:  0 20px;
+  margin-bottom: 20px;
+}
+main  h2{
+  font-weight: 700;  
+  color: var(--Dark-blue);
+}
+main  p{
+  font-size: 15px;
+  color: var(--Grayish-blue);
+}
+
+h5 {
+  color: grey;
+}
+/* Nuevas reglas para los logos */
+main .logos {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 60px; /* Espacio entre los logos */
+}
+
+main .logos img {
+  width: 20px;
+}
+
+.logos {
+  border-radius: 20px;
+  color: black;
+  display:flex;
+  align-items: flex-end;
+}
