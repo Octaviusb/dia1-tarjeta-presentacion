@@ -89,3 +89,18 @@ main .logos img {
   display:flex;
   align-items: flex-end;
 }
+.main .logos img {
+  width: 20px;
+  transition: transform 0.3s ease;
+}
+
+.main .logos img:hover {
+  transform: scale(1.5); 
+}
+
+.logos {
+  border-radius: 20px;
+  color: black;
+  display: flex;
+  align-items: flex-end;
+}
